@@ -1,0 +1,94 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:black;
+}
+body{
+    background:black;
+}
+header{
+    height:14vh;
+    width: 100%;
+    background:rgb(4, 48, 48);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+}
+.search{
+    background:rgb(17, 63, 63);
+    width: 80%;
+    height:10vh;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    vertical-align: middle;
+}
+.L_input{
+    display:flex;
+    justify-content: space-between;
+    width: 50%;
+    display: flex;
+}
+.L_input input{
+    width: 400px;
+    height:100%;
+    padding-left:5px;
+}
+.L_input input:focus{
+    outline:transparent;
+}
+.logo{
+    width: 100px;
+    height: 4vh;
+    background:rgb(48, 101, 101);
+}
+.promotions{
+    width: 100px;
+    height: 4vh;
+    background:rgb(48, 101, 101);
+}
+.filter{
+    width: 80%;
+    height:4vh;
+    background:rgb(99, 178, 178);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.filter div ul{
+    list-style: none;
+    display:flex;
+    width: 100%;
+    height:4vh;
+}
+.filter div ul li{
+    padding:5px;
+    margin-left:3px;
+    margin-right:3px;
+    background-color: rgb(7, 109, 114);
+}
+.cep_finder{
+    width: 100px;
+    height: 4vh;
+    background:rgb(48, 101, 101);
+}
+.acc{
+    list-style: none;
+    display:flex;
+    height:4vh;
+}
+.banner_1{
+    width: 100%;
+    height:26vh;
+    background:rgb(33, 70, 70);
+    text-align: center;
+}
+.banner_1 >h1{
+    font-size: 140px;
+    color:rgb(4, 17, 17);
+}
